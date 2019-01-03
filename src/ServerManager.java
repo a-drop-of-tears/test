@@ -32,6 +32,7 @@ public class ServerManager {
     public static void remove(BitCoinServer server){
         System.out.println("有连接退出当前总链接数"+servers.size());
         servers.remove(server);
+        
     }
 
 }
